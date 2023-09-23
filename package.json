@@ -1,0 +1,32 @@
+{
+  "name": "multifaucet",
+  "author": "Anish Agnihotri",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev -p 4001",
+    "build": "next build",
+    "start": "next start -p 4001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@slack/web-api": "^6.9.0",
+    "axios": "^0.24.0",
+    "ethers": "^5.7.2",
+    "ioredis": "^4.28.5",
+    "next": "^12.3.4",
+    "next-auth": "^3.29.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-toastify": "^8.2.0",
+    "sass": "^1.67.0"
+  },
+  "devDependencies": {
+    "@types/ioredis": "^4.28.10",
+    "@types/react": "17.0.26",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "typescript": "4.4.3"
+  }
+}

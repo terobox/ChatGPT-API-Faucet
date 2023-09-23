@@ -1,0 +1,27 @@
+// Main container
+.layout {
+  max-width: 800px;
+  padding: 20px;
+  margin: 0px auto;
+  min-height: calc(100vh - 40px);
+
+  display: flex;
+  flex-direction: column;
+
+  > div {
+    width: 100%;
+  }
+}
+
+// Footer
+.layout__footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 30px 0px;
+
+  > p {
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(93, 93, 93);
+  }
+}

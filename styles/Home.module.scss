@@ -1,0 +1,355 @@
+// Top CTA
+.home__cta {
+  text-align: center;
+
+  > div {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    > a:hover {
+      opacity: 0.8;
+    }
+  }
+
+  > h1 {
+    font-size: 2.5rem;
+    color: #19232d;
+    margin: 10px 0px;
+  }
+
+  > span {
+    display: block;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 500px;
+    margin: 0px auto;
+    color: #19232d;
+  }
+}
+
+// Add network button
+.addNetworkButton {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  margin-left: 2px;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+// Individual address containers
+.address {
+  > a {
+    padding: 0.2em 0.4em;
+    font-size: 85%;
+    text-decoration: none;
+    border-radius: 6px;
+    color: inherit;
+    background-color: rgba(175, 184, 193, 0.2);
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  > button {
+    padding: 0.2em 0.4em;
+    margin-left: 10px;
+    background-color: rgba(175, 184, 193, 0.2);
+    border: none;
+    border-radius: 6px;
+    color: inherit;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+// Individual token containers
+.token {
+  background-color: white;
+  padding: 0px 5px;
+  border: 1px solid rgb(236, 237, 239);
+  border-radius: 4px;
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+
+  img {
+    height: 18px;
+    padding-right: 5px;
+  }
+
+  span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+// Claim card
+.home__card {
+  margin-top: 40px;
+  background-color: white;
+  border: 1px solid rgb(236, 237, 239);
+  border-radius: 5px;
+  box-shadow: 0px 6px 10px 1px #eeeeee;
+
+  .home__card_title {
+    border-bottom: 2px solid rgb(237, 238, 240);
+    padding: 15px 20px;
+
+    > h3 {
+      margin: 0px;
+      font-weight: 500;
+      font-size: 18px;
+      transform: translateY(1px);
+    }
+  }
+
+  .home__card_content {
+    padding: 20px;
+
+    > p {
+      line-height: 24px;
+    }
+  }
+}
+
+.home__card_content_section {
+  padding: 20px;
+  border-bottom: 1px solid rgb(237, 238, 240);
+
+  > h4 {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      text-decoration: underline;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .home__card_content_section_lh {
+    line-height: 24px;
+  }
+
+  > span {
+    display: block;
+    color: #6e7a85;
+    font-size: 14px;
+    margin: 2px 0px;
+  }
+
+  > p {
+    color: #19232d;
+    margin: 10px 0px;
+
+    &:nth-last-of-type(1) {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+// Depleted section
+.home__card_depleted {
+  color: #e74747;
+}
+
+// Twitter sign-out button
+.content__twitter {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  > button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(114, 114, 114);
+  }
+}
+
+// Unauthenticated claim status
+.content__unauthenticated {
+  p {
+    margin: 0px;
+
+    a {
+      color: inherit;
+    }
+  }
+}
+
+// Authenticated claim status
+.content__authenticated {
+  > button {
+    display: inline-block;
+    margin: 0px auto;
+  }
+
+  input {
+    display: block;
+    width: calc(100% - 14px);
+    border: 2px solid rgb(234, 234, 234);
+    font-size: 16px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin: 20px 0px 10px 0px;
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+}
+
+// Authenticated claim status — already claimed
+.content__claimed {
+  p {
+    margin: 0px;
+  }
+
+  > button {
+    margin-top: 0px !important;
+  }
+}
+
+// Authenticated claim status — unclaimed
+.content__unclaimed {
+  p {
+    line-height: 24px;
+
+    &:nth-of-type(1) {
+      margin-top: 0px;
+    }
+
+    &:nth-last-of-type(1) {
+      margin-bottom: 0px;
+    }
+  }
+
+  > button {
+    margin-top: 0px !important;
+  }
+}
+
+// Authenticated claim status — unclaimed — other networks
+.content__unclaimed_others {
+  display: flex;
+  padding: 10px 0px 20px 0px;
+  align-items: center;
+
+  > input {
+    width: auto;
+    margin: 0px;
+    transform: scale(1.3);
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  > label {
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(114, 114, 114);
+  }
+}
+
+// Contract balance status
+.home__balances {
+  text-align: center;
+
+  > p {
+    font-size: 14px;
+    color: rgb(114, 114, 114);
+  }
+}
+
+// Main blue button
+.button__main {
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(25, 35, 45);
+  color: white;
+  padding: 10px 0px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 100ms ease-in-out;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:disabled {
+    background-color: rgb(220, 230, 240);
+    color: #19232d;
+    cursor: not-allowed;
+  }
+
+  &:hover:disabled {
+    opacity: 1;
+    cursor: not-allowed;
+  }
+}
+
+// Responsive
+@media screen and (max-width: 750px) {
+  // Top CTA
+  .home__cta {
+    > h1 {
+      font-size: 2.3rem;
+    }
+
+    > span {
+      font-size: 17px;
+    }
+  }
+
+  // Card
+  .home__card {
+    p {
+      line-height: 24px;
+    }
+  }
+
+  // Individual address containers
+  .address {
+    display: block;
+    margin-top: 5px;
+    padding-bottom: 10px;
+
+    > a {
+      display: block;
+      width: calc(100% - 0.8em);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: center;
+    }
+
+    > button {
+      display: block;
+      padding: 0.4em;
+      margin-left: 0px;
+      margin-top: 5px;
+      width: 100%;
+    }
+  }
+}
