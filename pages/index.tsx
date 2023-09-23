@@ -128,8 +128,18 @@ export default function Home({
         </div>
         <h1>ChatGPT API 水龙头</h1>
         <span>
-          每24小时可以免费领取 $1.00, 这是为 AI 开发者提供的.
+          AI 圈的水龙头网站, 每24小时可领取一个 $1.00 令牌用于开发测试 AI 产品.
         </span>
+        {/* 添加GitHub链接 */}
+        <div>
+          <a
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub链接
+          </a>
+        </div>
       </div>
 
       {/* Claim from facuet card */}
