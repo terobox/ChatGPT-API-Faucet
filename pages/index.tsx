@@ -133,7 +133,7 @@ export default function Home({
         {/* 添加GitHub链接 */}
         <div>
           <a
-            href="https://github.com/"
+            href="https://github.com/terobox/ChatGPT-API-Faucet"
             target="_blank"
             rel="noopener noreferrer"
           >
