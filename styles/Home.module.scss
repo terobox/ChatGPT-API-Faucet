@@ -353,3 +353,48 @@
     }
   }
 }
+
+// Scrollable Stock
+
+.home__card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px #ccc;
+}
+
+.home__card_content_section {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.userList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.userItem {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.userData {
+  display: flex;
+  flex-direction: column;
+}
+
+.userEmail,
+.userToken,
+.userTime {
+  color: #333;
+}
+
+.loading {
+  color: #888;
+}

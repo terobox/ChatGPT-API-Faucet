@@ -20,7 +20,8 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-toastify": "^8.2.0",
-    "sass": "^1.67.0"
+    "sass": "^1.67.0",
+    "swr": "^2.2.2"
   },
   "devDependencies": {
     "@types/ioredis": "^4.28.10",

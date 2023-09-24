@@ -82,6 +82,11 @@ function Head() {
         property="twitter:image"
         content="https://faucet.openkey.cloud/meta.png"
       />
+      
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+      />
 
     </HTMLHead>
   );
