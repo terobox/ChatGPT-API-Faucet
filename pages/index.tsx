@@ -212,9 +212,24 @@ export default function Home({
                     >
                         https://openkey.cloud</p></div>
 
-                      <div style={{ marginTop: '10px', marginBottom: '10px' }}>
-                        <p>可用余额: $1.00</p>
+                        <div style={{ marginTop: '10px', marginBottom: '10px' }}>
+                          <p>
+                              可用余额: $1.00 
+                              <a 
+                                  href="https://billing.openkey.cloud/" 
+                                  target="_blank" 
+                                  rel="noopener noreferrer"
+                                  style={{
+                                      textDecoration: 'none',
+                                      color: '#2c9678',
+                                      fontWeight: 'bold'
+                                  }}
+                              >
+                                   余额查询
+                              </a>
+                          </p>
                       </div>
+
                       
                     </div>
                   )}
@@ -332,6 +347,19 @@ export default function Home({
             - 您可以每24小时从水龙头领取一次.
           </p>
           <p>
+            - 余额查询地址.
+          </p>
+          <a href="https://billing.openkey.cloud/" style={{
+                      color: '#333', // 字体颜色
+                      backgroundColor: '#f4f4f4', // 背景颜色
+                      padding: '10px', // 内边距
+                      borderRadius: '5px', // 圆角
+                      fontFamily: 'Monaco, monospace', // 字体
+                      wordBreak: 'break-all', // 自动换行
+                   }}
+                 >
+                  https://billing.openkey.cloud/</a>
+          <p>
             - 如果您愿意支持这个项目, 我们将不胜感激.
           </p>
           <p style={{
@@ -344,7 +372,6 @@ export default function Home({
                    }}
                  >
                   USDT TRC-20: TTtgEjbTWcv5hryt4pKTQK9Zov47ffA8s1</p>
-           {/* <p>联系我们: support@openkey.cloud</p> */}
            <p>
             - 欢迎评论交流, 今天你打卡了吗?
           </p>
