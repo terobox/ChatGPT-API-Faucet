@@ -349,7 +349,7 @@ export default function Home({
           <p>
             - 余额查询地址.
           </p>
-          <a href="https://billing.openkey.cloud/" style={{
+          <p style={{
                       color: '#333', // 字体颜色
                       backgroundColor: '#f4f4f4', // 背景颜色
                       padding: '10px', // 内边距
@@ -358,7 +358,7 @@ export default function Home({
                       wordBreak: 'break-all', // 自动换行
                    }}
                  >
-                  https://billing.openkey.cloud/</a>
+                  https://billing.openkey.cloud/</p>
           <p>
             - 如果您愿意支持这个项目, 我们将不胜感激.
           </p>
